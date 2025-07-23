@@ -1,0 +1,15 @@
+{
+	"name": "jokes-generator",
+	"type": "module",
+	"private": true,
+	"workspaces": [
+		"client/",
+		"server/"
+	],
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
+}
